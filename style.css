@@ -57,8 +57,11 @@ article img{
 
 @media screen and (max-width: 880px){
     /* media screen using grid template columns */
+    .grid-container{
+        gap: 0;
+    }
     article, article.featured{
-    
+    gap: 0;
     grid-template-columns: repeat(1, 1fr);
    
 }
